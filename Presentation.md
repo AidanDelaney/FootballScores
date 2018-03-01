@@ -125,7 +125,7 @@ bool home_win(const GameResult &gr) {
 // S43/C84, S45/C85
 int home_won = std::count_if(results.cbegin() // S26
 	                         , results.cend()
-							 , home_win); // !C88
+							 , home_win); // S46/C88, !C89
 ```
 
 ## Our Objectives
@@ -182,7 +182,7 @@ int home_won = std::count_if(results.cbegin()
 There are [many, in the `algorithm` reference](http://en.cppreference.com/w/cpp/algorithm) manual
 
 Non-modifying sequence operations[^non-modifying]
-: `count`, **`count_if`**, `find`, `find_if`, `search`
+: `count`, **`count_if`**, `for_each`, `find_if`
 
 Modifying sequence operations
 : `copy`, `fill`, `remove`, `remove_if`, **`transform`**
@@ -221,7 +221,7 @@ std::transform(results.cbegin(), results.cend()
 ## Isn't that `for_each`?
 
 * `transform` conveys the semantics that we're mapping one struture to another.
-    - no side-effects!
+    - no side-effects in predicate!
 * `for_each` function object may have side-effects (and often does).
 * The calls return different things.
 * `for_each` applies the function object in sequential order.  `transform` is not required to operate sequentially.
@@ -249,18 +249,14 @@ From our three examples we can see characteristics shared by `<algorithm>` :
 
 ## Iterators
 
-- Generalised pointer.
 - All Iterators suppport `++`.
 - Iterators come in [several flavours](http://www.cplusplus.com/reference/iterator/):
     * InputIterator -- read-only, supports `==` testing.
 	* OutputIterator -- useable as an lvalue.
-	* ForwardIterator -- supports `=`.
+	* ForwardIterator.
 	* RandomAccessIterator
-	* ...
-	
 - The flavour of iterator is one of the **traits** of an iterator
     * Uses templates and multiple inheritance to constrain iterators at compile time i.e. the type-level.
-
 - E47 Use traits classes for information about types
 
 ## Iterator Invalidation
@@ -268,7 +264,10 @@ From our three examples we can see characteristics shared by `<algorithm>` :
 Iterator use introduces a class of error:
 
 ```c++
-for(auto it = std::lower_bound(vs.begin(), vs.end(), four)
+std::vector<int> vs = {1,2,3,4,5};
+std::vector<int> us = {301, 302, 303};
+  
+for(auto it = std::lower_bound(vs.begin(), vs.end(), 4)
 	; it < vs.end() ; ++it) {
     for(auto ut = us.begin()
 	  ; ut < us.end(); ++ut) {
@@ -286,6 +285,10 @@ for(auto it = std::lower_bound(vs.begin(), vs.end(), four)
 * Erasing invalidates iterators to the erased element on:
     - `list`, `set`, `map`
 
+## Iterator Concept
+
+* STL makes wide use of iterators
+    - particularly ranges defined by iterators.
 * While STL alogrithms don't solve iterator invalidation; they simplify the handling of iterators.
 
 ## Function Objects
@@ -295,9 +298,12 @@ for(auto it = std::lower_bound(vs.begin(), vs.end(), four)
 * Allows "partial application" of functions.
 
 ```c++
+std::string brighton("Brighton");
 auto brighton_named = std::bind(IsNamedTeam(), brighton, _1);
 
-int brighton_played = std::count_if(results.cbegin(), results.cend(), brighton_named);
+int brighton_played 
+    = std::count_if(results.cbegin(), results.cend()
+	                , brighton_named);
 ```
 
 ## Pure Functions
@@ -316,7 +322,9 @@ int brighton_played = std::count_if(results.cbegin(), results.cend(), brighton_n
 * The following is a functor, is pure and is a predicate:
 
 ```c++
-struct IsHomeWin : std::unary_function<const GameResult&, bool> {
+// C89
+struct IsHomeWin 
+  : std::unary_function<const GameResult&, bool> {
   bool operator()(const GameResult& gr) const noexcept {
     return gr.home_score > gr.away_score;
   }
@@ -325,13 +333,14 @@ struct IsHomeWin : std::unary_function<const GameResult&, bool> {
 
 ## On E34 & C88
 
+* Many STL algorithms reqire a Function Object.
+
 E34 states "Prefer lambdas to `std::bind`"
 
 but C88 states "Compilers have routinely inlined [Function Object] calls since C++'s Bronze Age."
 
 * `std::bind` returns a functor
 * replace it with a lambda where the lambda is more readable.
-* use it where you need to call an overloaded function.
 
 # Conclusion {data-background="#f08" data-transition="fade-in fade-out"}
 
@@ -404,13 +413,15 @@ As always, the FAQ is peerless:
 
 Erase-Remove (E32)
 : Actually get rid of the elements you've removed.
-    - `v.erase(std::remove_if(v.begin(), v.end(), IsOdd), v.end());`
+```c++ 
+v.erase(std::remove_if(v.begin(), v.end(), IsOdd), v.end());
+```
 
 Swap-to-fit (E17)
 : Shrink a container to [reclaim space](https://en.wikibooks.org/wiki/More_C%2B%2B_Idioms/Shrink-to-fit).
 
 Copy-and-swap
-: Implementing `operator=` in a [_move-friendly_ way](https://stackoverflow.com/questions/3279543/what-is-the-copy-and-swap-idiom).
+: [_move-friendly_ way](https://stackoverflow.com/questions/3279543/what-is-the-copy-and-swap-idiom) `operator=`.
 
 Copy-print
 : Use `std::copy` to copy elements to an output stream such as `std::cout`.
@@ -422,8 +433,11 @@ std::string brighton("Brighton");
 auto brighton_pred = std::bind(IsNamedTeam(), brighton, _1);
 auto home_pred = std::bind(IsHomeWin(), _1);
 
-auto brighton_home_win_pred = std::bind(std::logical_and<bool>(), brighton_pred, home_pred);
- ```
+auto brighton_home_win_pred 
+    = std::bind(std::logical_and<bool>()
+	            , brighton_pred
+				, home_pred);
+```
 
 ## equvalence `!=` equality
 
