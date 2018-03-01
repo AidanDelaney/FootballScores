@@ -68,6 +68,7 @@ bool home_win(const GameResult &gr) {
  *   - S39/C87: Make predicates pure functions.
  *   - C88: Prefer function objects over functions as algorithm and comparer arguments.
  *   - C89: Write function objects correctly.
+ *   - E14: Declare functions noexcept
  */
 struct IsHomeWin : std::unary_function<const GameResult&, bool> {
   bool operator()(const GameResult& gr) const noexcept {
