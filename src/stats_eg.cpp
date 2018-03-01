@@ -88,11 +88,12 @@ struct IsNamedTeam : std::binary_function<const std::string&, const GameResult&,
  *   - C15 -- Use const proactively.
  *   - C20 -- Avoid long functions. Avoid deep nesting.
  *   - C25 -- Take parameters appropriately by value, (smart) pointer, or reference.
- *   - E
+ *   - E13 -- Prefer const_iterator to iterator
  *   - S43/C84 -- Prefer algorithm calls to hand-written loops.
  *   - S44 -- Prefer member functions to algorithms with the same names
  *   - S45/C85 -- Distinguish among count, find, binary search, lower_bound, upper_bound, and equal_range.
- *   - S46 -- Consider function objects instead of functions as algorithm parameters.
+ *   - S46/C88 -- Prefer function objects over functions as algorithm and comparer arguments.
+ *   - C89 -- Write function objects correctly.
  *
  * Ignores:
  *   -
@@ -138,7 +139,7 @@ inline int home_games_won(const std::vector<GameResult> &results) {
  *   - C15 -- Use const proactively.
  *   - C25 -- Take parameters appropriately by value, (smart) pointer, or reference.
  *   - C28 -- Prefer the canonical form of + + and --. Prefer calling the prefix forms.
- *   - E
+ *   - E13 -- Prefer const_iterator to iterator
  *   - S
  * Ignores:
  *   -

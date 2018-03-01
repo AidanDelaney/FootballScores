@@ -9,8 +9,7 @@ int main() {
 
   // "all iterators and references before the point of insertion are unaffected,
   //  unless the new container size is greater than the previous capacity"
-  int four = 4;
-  /*for(auto it = std::lower_bound(vs.begin(), vs.end(), four)
+  /*for(auto it = std::lower_bound(vs.begin(), vs.end(), 4)
 	; it < vs.end() ; ++it) {
     for(auto ut = us.begin()
 	  ; ut < us.end(); ++ut) {
