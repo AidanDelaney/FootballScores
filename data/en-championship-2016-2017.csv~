@@ -1,0 +1,553 @@
+"HomeTeam" "AwayTeam" "FTHG" "FTAG"
+"Fulham" "Newcastle" 1 0
+"Birmingham" "Cardiff" 0 0
+"Blackburn" "Norwich" 1 4
+"Bristol City" "Wigan" 2 1
+"Derby" "Brighton" 0 0
+"Huddersfield" "Brentford" 2 1
+"Ipswich" "Barnsley" 4 2
+"Nott'm Forest" "Burton" 4 3
+"Reading" "Preston" 1 0
+"Rotherham" "Wolves" 2 2
+"QPR" "Leeds" 3 0
+"Sheffield Weds" "Aston Villa" 1 0
+"Brighton" "Nott'm Forest" 3 0
+"Aston Villa" "Rotherham" 3 0
+"Barnsley" "Derby" 2 0
+"Brentford" "Ipswich" 2 0
+"Burton" "Bristol City" 1 2
+"Leeds" "Birmingham" 1 2
+"Newcastle" "Huddersfield" 1 2
+"Norwich" "Sheffield Weds" 0 0
+"Preston" "Fulham" 1 2
+"Wigan" "Blackburn" 3 0
+"Wolves" "Reading" 2 0
+"Cardiff" "QPR" 0 2
+"Aston Villa" "Huddersfield" 1 1
+"Brentford" "Nott'm Forest" 1 0
+"Brighton" "Rotherham" 3 0
+"Burton" "Sheffield Weds" 3 1
+"Leeds" "Fulham" 1 1
+"Norwich" "Bristol City" 1 0
+"Preston" "Derby" 0 1
+"Wigan" "Birmingham" 1 1
+"Wolves" "Ipswich" 0 0
+"Barnsley" "QPR" 3 2
+"Cardiff" "Blackburn" 2 1
+"Newcastle" "Reading" 4 1
+"Birmingham" "Wolves" 1 3
+"Blackburn" "Burton" 2 2
+"Bristol City" "Newcastle" 0 1
+"Derby" "Aston Villa" 0 0
+"Fulham" "Cardiff" 2 2
+"Huddersfield" "Barnsley" 2 1
+"Nott'm Forest" "Wigan" 4 3
+"QPR" "Preston" 0 2
+"Reading" "Brighton" 2 2
+"Rotherham" "Brentford" 1 0
+"Sheffield Weds" "Leeds" 0 2
+"Ipswich" "Norwich" 1 1
+"Burton" "Derby" 1 0
+"Barnsley" "Rotherham" 4 0
+"Birmingham" "Norwich" 3 0
+"Blackburn" "Fulham" 0 1
+"Brentford" "Sheffield Weds" 1 1
+"Bristol City" "Aston Villa" 3 1
+"Cardiff" "Reading" 0 1
+"Huddersfield" "Wolves" 1 0
+"Ipswich" "Preston" 1 0
+"Newcastle" "Brighton" 2 0
+"Nott'm Forest" "Leeds" 3 1
+"Wigan" "QPR" 0 1
+"Reading" "Ipswich" 2 1
+"Brighton" "Brentford" 0 2
+"Derby" "Newcastle" 0 2
+"Fulham" "Birmingham" 0 1
+"Leeds" "Huddersfield" 0 1
+"Norwich" "Cardiff" 3 2
+"Preston" "Barnsley" 1 2
+"QPR" "Blackburn" 1 1
+"Rotherham" "Bristol City" 2 2
+"Sheffield Weds" "Wigan" 2 1
+"Wolves" "Burton" 1 1
+"Aston Villa" "Nott'm Forest" 2 2
+"Brighton" "Huddersfield" 1 0
+"Derby" "Ipswich" 0 1
+"Fulham" "Burton" 1 1
+"Leeds" "Blackburn" 2 1
+"Norwich" "Wigan" 2 1
+"Preston" "Cardiff" 3 0
+"QPR" "Newcastle" 0 6
+"Reading" "Birmingham" 0 0
+"Sheffield Weds" "Bristol City" 3 2
+"Wolves" "Barnsley" 0 4
+"Aston Villa" "Brentford" 1 1
+"Rotherham" "Nott'm Forest" 2 2
+"Barnsley" "Reading" 1 2
+"Birmingham" "Sheffield Weds" 2 1
+"Blackburn" "Rotherham" 4 2
+"Brentford" "Preston" 5 0
+"Bristol City" "Derby" 1 1
+"Burton" "Brighton" 0 1
+"Cardiff" "Leeds" 0 2
+"Huddersfield" "QPR" 2 1
+"Ipswich" "Aston Villa" 0 0
+"Newcastle" "Wolves" 0 2
+"Nott'm Forest" "Norwich" 1 2
+"Wigan" "Fulham" 0 0
+"Preston" "Wigan" 1 0
+"Aston Villa" "Newcastle" 1 1
+"Brighton" "Barnsley" 2 0
+"Derby" "Blackburn" 1 2
+"Fulham" "Bristol City" 0 4
+"Leeds" "Ipswich" 1 0
+"Norwich" "Burton" 3 1
+"QPR" "Birmingham" 1 1
+"Reading" "Huddersfield" 1 0
+"Rotherham" "Cardiff" 1 2
+"Sheffield Weds" "Nott'm Forest" 2 1
+"Wolves" "Brentford" 3 1
+"Barnsley" "Aston Villa" 1 1
+"Birmingham" "Preston" 2 2
+"Blackburn" "Sheffield Weds" 0 1
+"Brentford" "Reading" 4 1
+"Bristol City" "Leeds" 1 0
+"Burton" "QPR" 1 1
+"Cardiff" "Derby" 0 2
+"Huddersfield" "Rotherham" 2 1
+"Ipswich" "Brighton" 0 0
+"Nott'm Forest" "Fulham" 1 1
+"Wigan" "Wolves" 2 1
+"Newcastle" "Norwich" 4 3
+"Birmingham" "Blackburn" 1 0
+"Brentford" "Wigan" 0 0
+"Bristol City" "Nott'm Forest" 2 1
+"Burton" "Cardiff" 2 0
+"Fulham" "QPR" 1 2
+"Ipswich" "Huddersfield" 0 1
+"Leeds" "Barnsley" 2 1
+"Preston" "Aston Villa" 2 0
+"Reading" "Derby" 1 1
+"Rotherham" "Newcastle" 0 1
+"Sheffield Weds" "Brighton" 1 2
+"Wolves" "Norwich" 1 2
+"Cardiff" "Bristol City" 2 1
+"Nott'm Forest" "Birmingham" 3 1
+"Aston Villa" "Wolves" 1 1
+"Barnsley" "Fulham" 2 4
+"Blackburn" "Ipswich" 0 0
+"Brighton" "Preston" 2 2
+"Derby" "Leeds" 1 0
+"Newcastle" "Brentford" 3 1
+"Norwich" "Rotherham" 3 1
+"QPR" "Reading" 1 1
+"Wigan" "Burton" 0 0
+"Huddersfield" "Sheffield Weds" 0 1
+"Barnsley" "Newcastle" 0 2
+"Birmingham" "Rotherham" 4 2
+"Blackburn" "Nott'm Forest" 2 1
+"Brighton" "Wolves" 1 0
+"Derby" "Brentford" 0 0
+"Fulham" "Norwich" 2 2
+"Ipswich" "Burton" 2 0
+"Leeds" "Wigan" 1 1
+"QPR" "Bristol City" 1 0
+"Reading" "Aston Villa" 1 2
+"Cardiff" "Sheffield Weds" 1 1
+"Preston" "Huddersfield" 3 1
+"Burton" "Birmingham" 2 0
+"Aston Villa" "Fulham" 1 0
+"Brentford" "Barnsley" 0 2
+"Bristol City" "Blackburn" 1 0
+"Huddersfield" "Derby" 1 0
+"Newcastle" "Ipswich" 3 0
+"Norwich" "Preston" 0 1
+"Nott'm Forest" "Cardiff" 1 2
+"Rotherham" "Reading" 0 1
+"Sheffield Weds" "QPR" 1 0
+"Wigan" "Brighton" 0 1
+"Wolves" "Leeds" 0 1
+"QPR" "Brentford" 0 2
+"Barnsley" "Bristol City" 2 2
+"Blackburn" "Wolves" 1 1
+"Brighton" "Norwich" 5 0
+"Cardiff" "Wigan" 0 1
+"Derby" "Sheffield Weds" 2 0
+"Fulham" "Huddersfield" 5 0
+"Ipswich" "Rotherham" 2 2
+"Leeds" "Burton" 2 0
+"Preston" "Newcastle" 1 2
+"Reading" "Nott'm Forest" 2 0
+"Birmingham" "Aston Villa" 1 1
+"Brentford" "Fulham" 0 2
+"Aston Villa" "Blackburn" 2 1
+"Bristol City" "Brighton" 0 2
+"Burton" "Barnsley" 0 0
+"Huddersfield" "Birmingham" 1 1
+"Newcastle" "Cardiff" 2 1
+"Norwich" "Leeds" 2 3
+"Nott'm Forest" "QPR" 1 1
+"Rotherham" "Preston" 1 3
+"Sheffield Weds" "Ipswich" 1 2
+"Wigan" "Reading" 0 3
+"Wolves" "Derby" 2 3
+"Brighton" "Aston Villa" 1 1
+"Barnsley" "Wigan" 0 0
+"Birmingham" "Bristol City" 1 0
+"Blackburn" "Brentford" 3 2
+"Cardiff" "Huddersfield" 3 2
+"Derby" "Rotherham" 3 0
+"Fulham" "Sheffield Weds" 1 1
+"Ipswich" "Nott'm Forest" 0 2
+"Preston" "Wolves" 0 0
+"QPR" "Norwich" 2 1
+"Reading" "Burton" 3 0
+"Leeds" "Newcastle" 0 2
+"Barnsley" "Nott'm Forest" 2 5
+"Aston Villa" "Cardiff" 3 1
+"Brentford" "Birmingham" 1 2
+"Brighton" "Fulham" 2 1
+"Derby" "Norwich" 1 0
+"Ipswich" "QPR" 3 0
+"Newcastle" "Blackburn" 0 1
+"Preston" "Burton" 1 1
+"Reading" "Bristol City" 2 1
+"Rotherham" "Leeds" 1 2
+"Wolves" "Sheffield Weds" 0 2
+"Huddersfield" "Wigan" 1 2
+"QPR" "Wolves" 1 2
+"Nott'm Forest" "Newcastle" 2 1
+"Birmingham" "Barnsley" 0 3
+"Blackburn" "Huddersfield" 1 1
+"Bristol City" "Ipswich" 2 0
+"Burton" "Rotherham" 2 1
+"Cardiff" "Brighton" 0 0
+"Fulham" "Reading" 5 0
+"Leeds" "Aston Villa" 2 0
+"Norwich" "Brentford" 5 0
+"Sheffield Weds" "Preston" 2 1
+"Wigan" "Derby" 0 1
+"Brighton" "Leeds" 2 0
+"Aston Villa" "Wigan" 1 0
+"Barnsley" "Norwich" 2 1
+"Brentford" "Burton" 2 1
+"Huddersfield" "Bristol City" 2 1
+"Ipswich" "Cardiff" 1 1
+"Newcastle" "Birmingham" 4 0
+"Preston" "Blackburn" 3 2
+"Reading" "Sheffield Weds" 2 1
+"Rotherham" "QPR" 1 0
+"Wolves" "Fulham" 4 4
+"Derby" "Nott'm Forest" 3 0
+"Birmingham" "Ipswich" 2 1
+"Blackburn" "Brighton" 2 3
+"Bristol City" "Brentford" 0 1
+"Burton" "Huddersfield" 0 1
+"Cardiff" "Wolves" 2 1
+"Fulham" "Rotherham" 2 1
+"Leeds" "Reading" 2 0
+"Norwich" "Aston Villa" 1 0
+"Sheffield Weds" "Barnsley" 2 0
+"Nott'm Forest" "Preston" 1 1
+"QPR" "Derby" 0 1
+"Wigan" "Newcastle" 0 2
+"Norwich" "Huddersfield" 1 2
+"Birmingham" "Brighton" 1 2
+"Blackburn" "Reading" 2 3
+"Bristol City" "Preston" 1 2
+"Burton" "Newcastle" 1 2
+"Cardiff" "Barnsley" 3 4
+"Fulham" "Derby" 2 2
+"Leeds" "Brentford" 1 0
+"Nott'm Forest" "Wolves" 0 2
+"Sheffield Weds" "Rotherham" 1 0
+"Wigan" "Ipswich" 2 3
+"QPR" "Aston Villa" 0 1
+"Aston Villa" "Burton" 2 1
+"Barnsley" "Blackburn" 2 0
+"Brentford" "Cardiff" 2 2
+"Huddersfield" "Nott'm Forest" 2 1
+"Ipswich" "Fulham" 0 2
+"Newcastle" "Sheffield Weds" 0 1
+"Preston" "Leeds" 1 4
+"Reading" "Norwich" 3 1
+"Rotherham" "Wigan" 3 2
+"Wolves" "Bristol City" 3 2
+"Brighton" "QPR" 3 0
+"Derby" "Birmingham" 1 0
+"Aston Villa" "Leeds" 1 1
+"Rotherham" "Burton" 1 2
+"Ipswich" "Bristol City" 2 1
+"Newcastle" "Nott'm Forest" 3 1
+"Barnsley" "Birmingham" 2 2
+"Brentford" "Norwich" 0 0
+"Derby" "Wigan" 0 0
+"Huddersfield" "Blackburn" 1 1
+"Preston" "Sheffield Weds" 1 1
+"Wolves" "QPR" 1 2
+"Birmingham" "Brentford" 1 3
+"Blackburn" "Newcastle" 1 0
+"Bristol City" "Reading" 2 3
+"Burton" "Preston" 0 1
+"Cardiff" "Aston Villa" 1 0
+"Fulham" "Brighton" 1 2
+"Leeds" "Rotherham" 3 0
+"Norwich" "Derby" 3 0
+"Nott'm Forest" "Barnsley" 0 1
+"QPR" "Ipswich" 2 1
+"Sheffield Weds" "Wolves" 0 0
+"Wigan" "Huddersfield" 0 1
+"Reading" "QPR" 0 1
+"Leeds" "Derby" 1 0
+"Birmingham" "Nott'm Forest" 0 0
+"Brentford" "Newcastle" 1 2
+"Bristol City" "Cardiff" 2 3
+"Burton" "Wigan" 0 2
+"Fulham" "Barnsley" 2 0
+"Ipswich" "Blackburn" 3 2
+"Preston" "Brighton" 2 0
+"Rotherham" "Norwich" 2 1
+"Sheffield Weds" "Huddersfield" 2 0
+"Wolves" "Aston Villa" 1 0
+"Brighton" "Sheffield Weds" 2 1
+"Aston Villa" "Preston" 2 2
+"Barnsley" "Leeds" 3 2
+"Blackburn" "Birmingham" 1 1
+"Cardiff" "Burton" 1 0
+"Derby" "Reading" 3 2
+"Huddersfield" "Ipswich" 2 0
+"Newcastle" "Rotherham" 4 0
+"Norwich" "Wolves" 3 1
+"Nott'm Forest" "Bristol City" 1 0
+"QPR" "Fulham" 1 1
+"Wigan" "Brentford" 2 1
+"Brighton" "Cardiff" 1 0
+"Reading" "Fulham" 1 0
+"Leeds" "Nott'm Forest" 2 0
+"Norwich" "Birmingham" 2 0
+"Preston" "Ipswich" 1 1
+"QPR" "Burton" 1 2
+"Reading" "Cardiff" 2 1
+"Rotherham" "Barnsley" 0 1
+"Barnsley" "Wolves" 1 3
+"Birmingham" "Reading" 0 1
+"Brentford" "Aston Villa" 3 0
+"Bristol City" "Sheffield Weds" 2 2
+"Cardiff" "Preston" 2 0
+"Ipswich" "Derby" 0 3
+"Nott'm Forest" "Rotherham" 2 0
+"Blackburn" "Leeds" 1 2
+"Burton" "Fulham" 0 2
+"Newcastle" "QPR" 2 2
+"Huddersfield" "Brighton" 3 1
+"Wigan" "Sheffield Weds" 0 1
+"Barnsley" "Preston" 0 0
+"Birmingham" "Fulham" 1 0
+"Blackburn" "QPR" 1 0
+"Bristol City" "Rotherham" 1 0
+"Burton" "Wolves" 2 1
+"Cardiff" "Norwich" 0 1
+"Ipswich" "Reading" 2 2
+"Newcastle" "Derby" 1 0
+"Nott'm Forest" "Aston Villa" 2 1
+"Brentford" "Brighton" 3 3
+"Huddersfield" "Leeds" 2 1
+"Wigan" "Norwich" 2 2
+"Sheffield Weds" "Birmingham" 3 0
+"Aston Villa" "Ipswich" 0 1
+"Brighton" "Burton" 4 1
+"Derby" "Bristol City" 3 3
+"Fulham" "Wigan" 3 2
+"Leeds" "Cardiff" 0 2
+"Norwich" "Nott'm Forest" 5 1
+"Preston" "Brentford" 4 2
+"QPR" "Huddersfield" 1 2
+"Reading" "Barnsley" 0 0
+"Rotherham" "Blackburn" 1 1
+"Wolves" "Newcastle" 0 1
+"Aston Villa" "Barnsley" 1 3
+"Brighton" "Ipswich" 1 1
+"Derby" "Cardiff" 3 4
+"Fulham" "Nott'm Forest" 3 2
+"Leeds" "Bristol City" 2 1
+"Norwich" "Newcastle" 2 2
+"Preston" "Birmingham" 2 1
+"Reading" "Brentford" 3 2
+"Rotherham" "Huddersfield" 2 3
+"Sheffield Weds" "Blackburn" 2 1
+"Wolves" "Wigan" 0 1
+"Barnsley" "Brighton" 0 2
+"Birmingham" "QPR" 1 4
+"Burton" "Norwich" 2 1
+"Cardiff" "Rotherham" 5 0
+"Ipswich" "Leeds" 1 1
+"Nott'm Forest" "Sheffield Weds" 1 2
+"Wigan" "Preston" 0 0
+"Newcastle" "Aston Villa" 2 0
+"Derby" "Burton" 0 0
+"Huddersfield" "Reading" 1 0
+"QPR" "Wigan" 2 1
+"Sheffield Weds" "Brentford" 1 2
+"Bristol City" "Fulham" 0 2
+"Burton" "Blackburn" 1 1
+"Wolves" "Birmingham" 1 2
+"Aston Villa" "Derby" 1 0
+"Barnsley" "Huddersfield" 1 1
+"Brentford" "Rotherham" 4 2
+"Brighton" "Reading" 3 0
+"Cardiff" "Fulham" 2 2
+"Leeds" "Sheffield Weds" 1 0
+"Newcastle" "Bristol City" 2 2
+"Preston" "QPR" 2 1
+"Wigan" "Nott'm Forest" 0 0
+"Norwich" "Ipswich" 1 1
+"Aston Villa" "Bristol City" 2 0
+"Blackburn" "Derby" 1 0
+"Brighton" "Newcastle" 1 2
+"Birmingham" "Leeds" 1 3
+"Blackburn" "Wigan" 1 0
+"Bristol City" "Burton" 0 0
+"Derby" "Barnsley" 2 1
+"Fulham" "Preston" 3 1
+"Huddersfield" "Newcastle" 1 3
+"Ipswich" "Brentford" 1 1
+"Nott'm Forest" "Brighton" 3 0
+"QPR" "Cardiff" 2 1
+"Reading" "Wolves" 2 1
+"Rotherham" "Aston Villa" 0 2
+"Sheffield Weds" "Norwich" 5 1
+"Birmingham" "Wigan" 0 1
+"Blackburn" "Cardiff" 1 1
+"Bristol City" "Norwich" 1 1
+"Derby" "Preston" 1 1
+"Fulham" "Leeds" 1 1
+"Huddersfield" "Aston Villa" 1 0
+"Ipswich" "Wolves" 0 0
+"Nott'm Forest" "Brentford" 2 3
+"QPR" "Barnsley" 2 1
+"Reading" "Newcastle" 0 0
+"Rotherham" "Brighton" 0 2
+"Sheffield Weds" "Burton" 1 1
+"Brighton" "Derby" 3 0
+"Aston Villa" "Sheffield Weds" 2 0
+"Barnsley" "Ipswich" 1 1
+"Brentford" "Huddersfield" 0 1
+"Burton" "Nott'm Forest" 1 0
+"Cardiff" "Birmingham" 1 1
+"Leeds" "QPR" 0 0
+"Newcastle" "Fulham" 1 3
+"Norwich" "Blackburn" 2 2
+"Preston" "Reading" 3 0
+"Wigan" "Bristol City" 0 1
+"Wolves" "Rotherham" 1 0
+"Brentford" "Wolves" 1 2
+"Fulham" "Blackburn" 2 2
+"Bristol City" "Huddersfield" 4 0
+"Sheffield Weds" "Reading" 0 2
+"Birmingham" "Newcastle" 0 0
+"Blackburn" "Preston" 2 2
+"Burton" "Brentford" 3 5
+"Cardiff" "Ipswich" 3 1
+"Fulham" "Wolves" 1 3
+"Leeds" "Brighton" 2 0
+"Norwich" "Barnsley" 2 0
+"Nott'm Forest" "Derby" 2 2
+"QPR" "Rotherham" 5 1
+"Wigan" "Aston Villa" 0 2
+"Derby" "QPR" 1 0
+"Aston Villa" "Norwich" 2 0
+"Barnsley" "Sheffield Weds" 1 1
+"Brentford" "Bristol City" 2 0
+"Brighton" "Blackburn" 1 0
+"Huddersfield" "Burton" 0 1
+"Ipswich" "Birmingham" 1 1
+"Newcastle" "Wigan" 2 1
+"Preston" "Nott'm Forest" 1 1
+"Reading" "Leeds" 1 0
+"Rotherham" "Fulham" 0 1
+"Wolves" "Cardiff" 3 1
+"Aston Villa" "QPR" 1 0
+"Barnsley" "Cardiff" 0 0
+"Brentford" "Leeds" 2 0
+"Brighton" "Birmingham" 3 1
+"Derby" "Fulham" 4 2
+"Ipswich" "Wigan" 3 0
+"Preston" "Bristol City" 5 0
+"Reading" "Blackburn" 3 1
+"Rotherham" "Sheffield Weds" 0 2
+"Wolves" "Nott'm Forest" 1 0
+"Huddersfield" "Norwich" 3 0
+"Newcastle" "Burton" 1 0
+"QPR" "Brighton" 1 2
+"Birmingham" "Derby" 1 2
+"Blackburn" "Barnsley" 0 2
+"Bristol City" "Wolves" 3 1
+"Burton" "Aston Villa" 1 1
+"Cardiff" "Brentford" 2 1
+"Fulham" "Ipswich" 3 1
+"Leeds" "Preston" 3 0
+"Norwich" "Reading" 7 1
+"Nott'm Forest" "Huddersfield" 2 0
+"Sheffield Weds" "Newcastle" 2 1
+"Wigan" "Rotherham" 3 2
+"Wigan" "Barnsley" 3 2
+"Brentford" "Derby" 4 0
+"Bristol City" "QPR" 2 1
+"Burton" "Ipswich" 1 2
+"Huddersfield" "Preston" 3 2
+"Newcastle" "Leeds" 1 1
+"Norwich" "Fulham" 1 3
+"Nott'm Forest" "Blackburn" 0 1
+"Rotherham" "Birmingham" 1 1
+"Sheffield Weds" "Cardiff" 1 0
+"Wolves" "Brighton" 0 2
+"Aston Villa" "Reading" 1 3
+"Barnsley" "Brentford" 1 1
+"Birmingham" "Burton" 0 2
+"Blackburn" "Bristol City" 1 1
+"Brighton" "Wigan" 2 1
+"Cardiff" "Nott'm Forest" 1 0
+"Derby" "Huddersfield" 1 1
+"Fulham" "Aston Villa" 3 1
+"Ipswich" "Newcastle" 3 1
+"Leeds" "Wolves" 0 1
+"Preston" "Norwich" 1 3
+"QPR" "Sheffield Weds" 1 2
+"Reading" "Rotherham" 2 1
+"Norwich" "Brighton" 2 0
+"Brentford" "QPR" 3 1
+"Bristol City" "Barnsley" 3 2
+"Burton" "Leeds" 2 1
+"Huddersfield" "Fulham" 1 4
+"Nott'm Forest" "Reading" 3 2
+"Rotherham" "Ipswich" 1 0
+"Sheffield Weds" "Derby" 2 1
+"Wigan" "Cardiff" 0 0
+"Wolves" "Blackburn" 0 0
+"Aston Villa" "Birmingham" 1 0
+"Newcastle" "Preston" 4 1
+"Wolves" "Huddersfield" 0 1
+"Cardiff" "Newcastle" 0 2
+"Barnsley" "Burton" 1 1
+"Birmingham" "Huddersfield" 2 0
+"Blackburn" "Aston Villa" 1 0
+"Brighton" "Bristol City" 0 1
+"Derby" "Wolves" 3 1
+"Fulham" "Brentford" 1 1
+"Ipswich" "Sheffield Weds" 0 1
+"Leeds" "Norwich" 3 3
+"Preston" "Rotherham" 1 1
+"QPR" "Nott'm Forest" 2 0
+"Reading" "Wigan" 1 0
+"Aston Villa" "Brighton" 1 1
+"Brentford" "Blackburn" 1 3
+"Bristol City" "Birmingham" 0 1
+"Burton" "Reading" 2 4
+"Huddersfield" "Cardiff" 0 3
+"Newcastle" "Barnsley" 3 0
+"Norwich" "QPR" 4 0
+"Nott'm Forest" "Ipswich" 3 0
+"Rotherham" "Derby" 1 1
+"Sheffield Weds" "Fulham" 1 2
+"Wigan" "Leeds" 1 1
+"Wolves" "Preston" 1 0
