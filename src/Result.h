@@ -11,10 +11,6 @@ struct GameResult {
   int home_score;
   int away_score;
 
-  /*  GameResult(std::string &home_team, std::string &away_team, int home_score, int away_score)
-  : home_team(home_team), away_team(away_team), home_score(home_score), away_score(away_score) {
-  } */
-  
   ~GameResult() {
 #ifdef PRINTY
     std::cout << "Deleting " << home_team << " -v- " << away_team << std::endl;
